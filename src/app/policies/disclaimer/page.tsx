@@ -14,7 +14,7 @@ export default function DisclaimerPage() {
         <div className="prose prose-lg max-w-none text-gray-800 space-y-6">
           <p><strong>Last Updated:</strong> {new Date().toLocaleDateString()}</p>
           
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-6">
+          <div className="bg-gray-100 border-l-4 border-gray-400 p-6 my-6">
             <p className="font-semibold">IMPORTANT NOTICE</p>
             <p className="mt-2">A home inspection is a visual examination of accessible areas and systems. It is not a guarantee, warranty, or insurance policy.</p>
           </div>
@@ -59,7 +59,7 @@ export default function DisclaimerPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Questions</h2>
-            <p>Contact {siteConfig.businessName} at {siteConfig.phone} or <a href={`mailto:${siteConfig.email}`} className="text-blue-600 hover:underline">{siteConfig.email}</a> with questions about this disclaimer.</p>
+            <p>Contact {siteConfig.businessName} at {siteConfig.phone} or <a href={`mailto:${siteConfig.email}`} className="text-black hover:underline">{siteConfig.email}</a> with questions about this disclaimer.</p>
           </section>
         </div>
       </div>

@@ -107,7 +107,7 @@ export default function PrivacyPolicyPage() {
             <p className="text-gray-700">
               We use cookies to enhance your browsing experience. You can control cookies through
               your browser settings. For more information, see our{" "}
-              <Link href="/policies/cookie-policy" className="text-blue-600 hover:underline">
+              <Link href="/policies/cookie-policy" className="text-black hover:underline">
                 Cookie Policy
               </Link>
               .
@@ -133,12 +133,12 @@ export default function PrivacyPolicyPage() {
               <strong>{siteConfig.legalName}</strong>
               <br />
               Email:{" "}
-              <a href={`mailto:${siteConfig.email}`} className="text-blue-600 hover:underline">
+              <a href={`mailto:${siteConfig.email}`} className="text-black hover:underline">
                 {siteConfig.email}
               </a>
               <br />
               Phone:{" "}
-              <a href={`tel:${siteConfig.phone.replace(/\D/g, "")}`} className="text-blue-600 hover:underline">
+              <a href={`tel:${siteConfig.phone.replace(/\D/g, "")}`} className="text-black hover:underline">
                 {siteConfig.phone}
               </a>
             </p>

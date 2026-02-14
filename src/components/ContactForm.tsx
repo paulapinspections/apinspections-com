@@ -91,8 +91,8 @@ export function ContactForm({ subject, showAddressField = false }: ContactFormPr
 
   if (status === "success") {
     return (
-      <div className="bg-green-50 border border-green-200 rounded-lg p-8 text-center">
-        <CheckCircle className="h-16 w-16 text-green-600 mx-auto mb-4" />
+      <div className="bg-gray-100 border border-gray-300 rounded-lg p-8 text-center">
+        <CheckCircle className="h-16 w-16 text-black mx-auto mb-4" />
         <h3 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
         <p className="text-gray-700 mb-4">
           Thank you for contacting us. We'll respond within 24 hours.
@@ -196,16 +196,16 @@ export function ContactForm({ subject, showAddressField = false }: ContactFormPr
       </div>
 
       {status === "error" && (
-        <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-start">
-          <AlertCircle className="h-5 w-5 text-red-600 mr-3 flex-shrink-0 mt-0.5" />
-          <p className="text-red-800">{errorMessage}</p>
+        <div className="bg-gray-100 border border-gray-300 rounded-lg p-4 flex items-start">
+          <AlertCircle className="h-5 w-5 text-black mr-3 flex-shrink-0 mt-0.5" />
+          <p className="text-gray-900">{errorMessage}</p>
         </div>
       )}
 
       <Button
         type="submit"
         size="lg"
-        className="w-full bg-blue-600 hover:bg-blue-700"
+        className="w-full bg-black hover:bg-gray-800"
         disabled={status === "loading"}
       >
         {status === "loading" ? (

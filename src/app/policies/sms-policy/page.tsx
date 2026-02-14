@@ -36,7 +36,7 @@ export default function SMSPolicyPage() {
             <ul className="list-disc pl-6 space-y-2">
               <li>Replying STOP to any text message</li>
               <li>Contacting us at {siteConfig.phone}</li>
-              <li>Emailing us at <a href={`mailto:${siteConfig.email}`} className="text-blue-600 hover:underline">{siteConfig.email}</a></li>
+              <li>Emailing us at <a href={`mailto:${siteConfig.email}`} className="text-black hover:underline">{siteConfig.email}</a></li>
             </ul>
           </section>
 

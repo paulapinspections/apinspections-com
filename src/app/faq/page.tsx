@@ -8,6 +8,13 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description: `Find answers to common questions about home inspections, our process, pricing, and more. ${siteConfig.businessName} serving ${siteConfig.city}, ${siteConfig.state}.`,
+  keywords: [
+    "home inspection FAQ",
+    "home inspection questions",
+    "how long does a home inspection take",
+    "home inspection report timeline",
+    `${siteConfig.city} home inspection FAQ`,
+  ],
   alternates: {
     canonical: "/faq",
   },
@@ -16,39 +23,44 @@ export const metadata: Metadata = {
 export default function FAQPage() {
   return (
     <div>
-      {/* Header */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              Frequently Asked Questions
-            </h1>
-            <p className="mt-4 text-xl text-blue-100">
-              Everything you need to know about our home inspection services
-            </p>
-          </div>
-        </div>
-      </section>
+      <div
+        className="relative bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${siteConfig.images.hero})` }}
+      >
+        <div className="absolute inset-0 bg-black/70" aria-hidden="true" />
 
-      {/* FAQ Section */}
-      <section className="py-16">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="space-y-6">
-            {siteConfig.faqs.map((faq, index) => (
-              <details
-                key={index}
-                className="group bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              >
-                <summary className="flex justify-between items-start cursor-pointer list-none">
-                  <h3 className="text-lg font-semibold text-gray-900 pr-8">{faq.question}</h3>
-                  <ChevronDown className="h-6 w-6 text-gray-500 flex-shrink-0 transition-transform group-open:rotate-180" />
-                </summary>
-                <div className="mt-4 text-gray-800 leading-relaxed">{faq.answer}</div>
-              </details>
-            ))}
+        <section className="relative z-10 text-white py-16">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+                Frequently Asked Questions
+              </h1>
+              <p className="mt-4 text-xl text-gray-200">
+                Everything you need to know about our home inspection services
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        <section className="relative z-10 py-16">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <div className="space-y-6">
+              {siteConfig.faqs.map((faq, index) => (
+                <details
+                  key={index}
+                  className="group bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <summary className="flex justify-between items-start cursor-pointer list-none">
+                    <h3 className="text-lg font-semibold text-gray-900 pr-8">{faq.question}</h3>
+                    <ChevronDown className="h-6 w-6 text-gray-500 flex-shrink-0 transition-transform group-open:rotate-180" />
+                  </summary>
+                  <div className="mt-4 text-gray-800 leading-relaxed">{faq.answer}</div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      </div>
 
       {/* Still Have Questions */}
       <section className="py-16 bg-gray-50">
@@ -66,7 +78,7 @@ export default function FAQPage() {
               </Button>
             </Link>
             <a href={getPhoneLink(siteConfig.phone)}>
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+              <Button size="lg" className="bg-black hover:bg-gray-800">
                 <Phone className="mr-2 h-5 w-5" />
                 Call {siteConfig.phone}
               </Button>
@@ -76,15 +88,15 @@ export default function FAQPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-black text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold">Ready to Schedule Your Inspection?</h2>
-          <p className="mt-4 text-xl text-blue-100">
+          <p className="mt-4 text-xl text-gray-200">
             Let's get started today
           </p>
           <div className="mt-8">
             <Link href="/book">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              <Button size="lg" className="bg-white text-black hover:bg-gray-100">
                 Request Inspection
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>

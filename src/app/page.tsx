@@ -16,6 +16,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Home",
   description: `${siteConfig.businessName} provides professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Licensed, insured, and bonded with ${siteConfig.inspectionReportSameDay ? "same-day" : "fast"} detailed reports.`,
+  keywords: [
+    ...siteConfig.seoKeywords,
+    `${siteConfig.businessName} home inspection`,
+    `${siteConfig.city} home inspector`,
+  ],
   alternates: {
     canonical: "/",
   },
@@ -24,89 +29,96 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <div>
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              {siteConfig.tagline}
-            </h1>
-            <p className="mt-6 text-xl max-w-3xl mx-auto text-blue-100">
-              Professional home inspection services in {siteConfig.city}, {siteConfig.state}.
-              {siteConfig.inspectionReportSameDay && " Same-day detailed reports."}
-            </p>
-            <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/book">
-                <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  Schedule Inspection
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-              </Link>
-              <a href={getPhoneLink(siteConfig.phone)}>
-                <Button size="lg" variant="outline" className="border-white text-blue-600 hover:bg-white/10">
-                  <Phone className="mr-2 h-5 w-5" />
-                  {siteConfig.phone}
-                </Button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div
+        className="relative bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${siteConfig.images.hero})` }}
+      >
+        <div className="absolute inset-0 bg-black/70" aria-hidden="true" />
 
-      {/* Value Props */}
-      <section className="py-16 bg-gray-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        {/* Hero Section */}
+        <section className="relative z-10 text-white">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
             <div className="text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
-                <Shield className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">Licensed & Insured</h3>
-              <p className="mt-2 text-sm text-gray-700">
-                Fully licensed, insured, and bonded for your protection
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+                {siteConfig.tagline}
+              </h1>
+              <p className="mt-6 text-xl max-w-3xl mx-auto text-gray-200">
+                Professional home inspection services in {siteConfig.city}, {siteConfig.state}.
+                {siteConfig.inspectionReportSameDay && " Same-day detailed reports."}
               </p>
-            </div>
-            <div className="text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
-                <CheckCircle className="h-8 w-8 text-blue-600" />
+              <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/book">
+                  <Button size="lg" className="bg-white text-black hover:bg-gray-100">
+                    Schedule Inspection
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
+                <a href={getPhoneLink(siteConfig.phone)}>
+                  <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10">
+                    <Phone className="mr-2 h-5 w-5" />
+                    {siteConfig.phone}
+                  </Button>
+                </a>
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">Thorough Inspections</h3>
-              <p className="mt-2 text-sm text-gray-700">
-                Comprehensive evaluation of all major systems and components
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
-                <Clock className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">Fast Scheduling</h3>
-              <p className="mt-2 text-sm text-gray-700">
-                Quick turnaround times to keep your transaction on track
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
-                <FileText className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">
-                {siteConfig.inspectionReportSameDay ? "Same-Day Reports" : "Detailed Reports"}
-              </h3>
-              <p className="mt-2 text-sm text-gray-700">
-                {siteConfig.inspectionReportSameDay 
-                  ? "Receive your comprehensive report the same day"
-                  : "Easy-to-read reports with photos and recommendations"}
-              </p>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        {/* Value Props */}
+        <section className="relative z-10 py-16">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+              <div className="text-center">
+                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white/15">
+                  <Shield className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="mt-4 text-lg font-semibold text-white">Licensed & Insured</h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  Fully licensed, insured, and bonded for your protection
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white/15">
+                  <CheckCircle className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="mt-4 text-lg font-semibold text-white">Thorough Inspections</h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  Comprehensive evaluation of all major systems and components
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white/15">
+                  <Clock className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="mt-4 text-lg font-semibold text-white">Fast Scheduling</h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  Quick turnaround times to keep your transaction on track
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white/15">
+                  <FileText className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="mt-4 text-lg font-semibold text-white">
+                  {siteConfig.inspectionReportSameDay ? "Same-Day Reports" : "Detailed Reports"}
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  {siteConfig.inspectionReportSameDay
+                    ? "Receive your comprehensive report the same day"
+                    : "Easy-to-read reports with photos and recommendations"}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
 
       {/* Services Preview */}
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white-900">Our Services</h2>
-            <p className="mt-4 text-lg text-white-700">
+            <h2 className="text-3xl font-bold text-gray-900">Our Services</h2>
+            <p className="mt-4 text-lg text-gray-700">
               Comprehensive inspection services for every need
             </p>
           </div>
@@ -116,14 +128,14 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold text-gray-900">{service.name}</h3>
                 <p className="mt-3 text-gray-700">{service.description}</p>
                 {service.startingPrice && (
-                  <p className="mt-4 text-lg font-semibold text-blue-600">
+                  <p className="mt-4 text-lg font-semibold text-black">
                     Starting at {service.startingPrice}
                   </p>
                 )}
               </div>
             ))}
           </div>
-          <div className="text-center text-blue-600 mt-10">
+          <div className="text-center text-black mt-10">
             <Link href="/services">
               <Button variant="outline">
                 View All Services
@@ -155,7 +167,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-8">
             <Link href="/areas-served">
-              <Button variant="link" className="text-blue-600">
+              <Button variant="link" className="text-black">
                 See full coverage area →
               </Button>
             </Link>
@@ -175,7 +187,7 @@ export default function HomePage() {
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
                   <div className="flex mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
+                      <Star key={i} className="h-5 w-5 text-black fill-current" />
                     ))}
                   </div>
                   <p className="text-gray-800 mb-4 italic">&ldquo;{testimonial.text}&rdquo;</p>
@@ -191,20 +203,20 @@ export default function HomePage() {
       )}
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-black text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold">Ready to Schedule Your Inspection?</h2>
-          <p className="mt-4 text-xl text-blue-100">
+          <p className="mt-4 text-xl text-gray-200">
             Call us today or request an inspection online
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/book">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              <Button size="lg" className="bg-white text-black hover:bg-gray-100">
                 Request Inspection
               </Button>
             </Link>
             <a href={getPhoneLink(siteConfig.phone)}>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10">
                 <Phone className="mr-2 h-5 w-5" />
                 Call {siteConfig.phone}
               </Button>

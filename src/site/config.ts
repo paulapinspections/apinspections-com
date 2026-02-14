@@ -74,6 +74,9 @@ export interface SiteConfig {
   
   // Site
   siteUrl: string;
+
+  // SEO
+  seoKeywords: string[];
   
   // Optional features
   showAnnouncementBanner: boolean;
@@ -82,42 +85,42 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   // Business info
-  businessName: "Premier Home Inspections",
-  legalName: "Premier Home Inspections LLC",
+  businessName: "AP Inspections",
+  legalName: "AP Inspections LLC",
   tagline: "Thorough, Professional, Trusted",
   
   // Contact
-  phone: "(555) 123-4567",
-  email: "info@premierhomeinspections.com",
-  address: "123 Main Street",
-  city: "Springfield",
-  state: "IL",
-  zip: "62701",
+  phone: "(260) 665-6568",
+  email: "info@ap-inspections.com",
+  address: "1335 N 170 W",
+  city: "Angola",
+  state: "IN",
+  zip: "46703",
   
   // Service details
   serviceArea: [
-    "Springfield",
-    "Decatur",
-    "Champaign",
-    "Bloomington",
-    "Peoria",
-    "Sangamon County",
-    "Macon County",
-    "McLean County",
+    "Angola",
+    "Auburn",
+    "Hamilton",
+    "Fremont",
+    "Noble County",
+    "Lagrange County",
+    "Steuben County",
+    "Dekalb County",
   ],
-  hours: "Monday - Saturday: 7:00 AM - 7:00 PM",
-  licenseNumber: "IL-12345",
+  hours: "Monday - Friday: 7:00 AM - 500 PM",
+  licenseNumber: "Coming Soon",
   insured: true,
   bonded: true,
   
   // Branding
-  primaryColor: "blue-600",
-  accentColor: "orange-500",
+  primaryColor: "black",
+  accentColor: "white",
   
   // Social
   socialLinks: {
-    facebook: "https://facebook.com/premierhomeinspections",
-    instagram: "https://instagram.com/premierhomeinspections",
+    facebook: "https://facebook.com/ap-inspections",
+    instagram: "https://instagram.com/ap-inspections",
   },
   
   // Services
@@ -140,44 +143,32 @@ export const siteConfig: SiteConfig = {
       startingPrice: "$400",
       icon: "hammer",
     },
-    {
-      name: "Radon Testing",
-      description: "Professional radon testing to detect dangerous levels of this invisible, odorless gas in your home.",
-      startingPrice: "$150",
-      icon: "wind",
-    },
+    //{
+      //name: "Radon Testing",
+      //description: "Professional radon testing to detect dangerous levels of this invisible, odorless gas in your home.",
+      //startingPrice: "$150",
+      //icon: "wind",
+    //},
     {
       name: "Mold Inspection",
       description: "Visual inspection and air quality testing to identify mold growth and moisture issues.",
       startingPrice: "$275",
       icon: "droplet",
     },
-    {
-      name: "Termite & Pest Inspection",
-      description: "Thorough inspection for wood-destroying insects and other pest damage.",
-      startingPrice: "$125",
-      icon: "bug",
-    },
+    //{
+      //name: "Termite & Pest Inspection",
+      //description: "Thorough inspection for wood-destroying insects and other pest damage.",
+      //startingPrice: "$125",
+      //icon: "bug",
+    //},
   ],
   
   // Testimonials
   testimonials: [
     {
-      name: "Sarah Johnson",
-      location: "Springfield, IL",
+      name: "David Nester",
+      location: "Fremont, IN",
       text: "Premier Home Inspections was incredibly thorough and professional. The same-day report was detailed and easy to understand. Highly recommend!",
-      rating: 5,
-    },
-    {
-      name: "Mike Chen",
-      location: "Decatur, IL",
-      text: "Best home inspector I've worked with. Found issues that could have cost me thousands. Worth every penny!",
-      rating: 5,
-    },
-    {
-      name: "Emily Rodriguez",
-      location: "Champaign, IL",
-      text: "Very knowledgeable and took the time to explain everything. The report helped us negotiate a better deal on our home.",
       rating: 5,
     },
   ],
@@ -226,12 +217,30 @@ export const siteConfig: SiteConfig = {
   images: {
     logo: "/brand/logo.svg",
     logoAlt: "Premier Home Inspections Logo",
-    hero: "/images/hero.jpg",
+    hero: "/brand/hero.png",
     ogImage: "/brand/og.png",
   },
   
   // Site
-  siteUrl: process.env.SITE_URL || "https://premierhomeinspections.com",
+  siteUrl: process.env.SITE_URL || "https://ap-inspections.com",
+
+  // SEO
+  seoKeywords: [
+    "home inspection",
+    "home inspector",
+    "property inspection",
+    "real estate inspection",
+    "pre-purchase inspection",
+    "pre-listing inspection",
+    "new construction inspection",
+    "mold inspection",
+    "same-day inspection report",
+    "licensed home inspector",
+    "insured home inspector",
+    "home inspection Angola IN",
+    "home inspector Steuben County",
+    "home inspector Dekalb County",
+  ],
   
   // Optional features
   showAnnouncementBanner: true,

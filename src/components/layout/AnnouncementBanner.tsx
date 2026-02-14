@@ -25,7 +25,7 @@ export function AnnouncementBanner() {
   }
 
   return (
-    <div className="bg-orange-500 text-white">
+    <div className="bg-black text-white">
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between flex-wrap">
           <p className="text-sm font-medium flex-1 text-center sm:text-left">
@@ -33,7 +33,7 @@ export function AnnouncementBanner() {
           </p>
           <button
             onClick={handleDismiss}
-            className="ml-3 flex-shrink-0 rounded-md p-1 hover:bg-orange-600 transition-colors"
+            className="ml-3 flex-shrink-0 rounded-md p-1 hover:bg-gray-800 transition-colors"
             aria-label="Dismiss announcement"
           >
             <X className="h-5 w-5" />

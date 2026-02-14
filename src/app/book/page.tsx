@@ -8,6 +8,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Schedule Inspection",
   description: `Schedule your home inspection with ${siteConfig.businessName}. Fast, professional service in ${siteConfig.city}, ${siteConfig.state}.`,
+  keywords: [
+    "book home inspection",
+    "schedule home inspection online",
+    `${siteConfig.city} home inspection booking`,
+    `${siteConfig.businessName} schedule inspection`,
+  ],
   alternates: {
     canonical: "/book",
   },
@@ -17,13 +23,13 @@ export default function BookPage() {
   return (
     <div>
       {/* Header */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
+      <section className="bg-black text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
               Schedule Your Inspection
             </h1>
-            <p className="mt-4 text-xl text-blue-100">
+            <p className="mt-4 text-xl text-gray-200">
               Fast, easy scheduling with {siteConfig.inspectionReportSameDay ? "same-day" : "quick"} reports
             </p>
           </div>
@@ -38,7 +44,7 @@ export default function BookPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-xl mb-3">
+              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-black text-white font-bold text-xl mb-3">
                 1
               </div>
               <h3 className="font-semibold mb-2 text-gray-900">Submit Request</h3>
@@ -47,7 +53,7 @@ export default function BookPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-xl mb-3">
+              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-black text-white font-bold text-xl mb-3">
                 2
               </div>
               <h3 className="font-semibold mb-2">Confirmation</h3>
@@ -56,7 +62,7 @@ export default function BookPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-xl mb-3">
+              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-black text-white font-bold text-xl mb-3">
                 3
               </div>
               <h3 className="font-semibold mb-2">Inspection Day</h3>
@@ -74,37 +80,37 @@ export default function BookPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Why Choose Us sidebar */}
             <div className="lg:col-span-1">
-              <div className="bg-blue-50 p-6 rounded-lg sticky top-24">
+              <div className="bg-gray-100 p-6 rounded-lg sticky top-24">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Us?</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-black mr-2 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-gray-800">Licensed & insured professionals</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-black mr-2 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-gray-700">
                       {siteConfig.inspectionReportSameDay ? "Same-day" : "Fast"} detailed reports
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-black mr-2 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-gray-700">Flexible scheduling</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-black mr-2 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-gray-700">Comprehensive inspections</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-black mr-2 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-gray-700">Expert, friendly service</span>
                   </li>
                 </ul>
 
-                <div className="mt-6 pt-6 border-t border-blue-200">
+                <div className="mt-6 pt-6 border-t border-gray-300">
                   <p className="text-sm font-semibold text-gray-900 mb-2">Prefer to call?</p>
                   <a href={getPhoneLink(siteConfig.phone)}>
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                    <Button className="w-full bg-black hover:bg-gray-800">
                       <Phone className="h-4 w-4 mr-2" />
                       {siteConfig.phone}
                     </Button>
@@ -118,14 +124,14 @@ export default function BookPage() {
               {siteConfig.bookingLink ? (
                 <div className="bg-white p-8 rounded-lg shadow-lg">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                    <Calendar className="inline h-6 w-6 mr-2 text-blue-600" />
+                    <Calendar className="inline h-6 w-6 mr-2 text-black" />
                     Schedule Online
                   </h2>
                   <p className="text-gray-600 mb-6">
                     Use our online scheduling tool to pick a time that works for you.
                   </p>
                   <a href={siteConfig.bookingLink} target="_blank" rel="noopener noreferrer">
-                    <Button size="lg" className="w-full bg-blue-600 hover:bg-blue-700 mb-6">
+                    <Button size="lg" className="w-full bg-black hover:bg-gray-800 mb-6">
                       Open Scheduling Tool
                     </Button>
                   </a>
@@ -170,19 +176,19 @@ export default function BookPage() {
           <div className="bg-white p-6 rounded-lg shadow-md">
             <ul className="space-y-3 text-gray-800">
               <li className="flex items-start">
-                <span className="text-blue-600 mr-3">•</span>
+                <span className="text-black mr-3">•</span>
                 <span>Ensure all utilities (water, gas, electric) are turned on</span>
               </li>
               <li className="flex items-start">
-                <span className="text-blue-600 mr-3">•</span>
+                <span className="text-black mr-3">•</span>
                 <span>Make sure we have access to all areas (unlock gates, sheds, etc.)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-blue-600 mr-3">•</span>
+                <span className="text-black mr-3">•</span>
                 <span>Clear access to electrical panels, water heater, and HVAC systems</span>
               </li>
               <li className="flex items-start">
-                <span className="text-blue-600 mr-3">•</span>
+                <span className="text-black mr-3">•</span>
                 <span>Plan to attend so we can review findings with you</span>
               </li>
             </ul>

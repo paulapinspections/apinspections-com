@@ -26,7 +26,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="text-2xl font-bold text-blue-600">
+              <div className="text-2xl font-bold text-black">
                 {siteConfig.businessName}
               </div>
             </Link>
@@ -38,13 +38,13 @@ export function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium text-gray-800 hover:text-blue-600 transition-colors"
+                className="text-sm font-medium text-gray-800 hover:text-black transition-colors"
               >
                 {item.name}
               </Link>
             ))}
             <a href={getPhoneLink(siteConfig.phone)} className="ml-4">
-              <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
+              <Button size="sm" className="bg-black hover:bg-gray-800">
                 <Phone className="h-4 w-4 mr-2" />
                 Call Now
               </Button>
@@ -84,7 +84,7 @@ export function Header() {
               ))}
               <div className="px-3 pt-2">
                 <a href={getPhoneLink(siteConfig.phone)} className="block">
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                  <Button className="w-full bg-black hover:bg-gray-800">
                     <Phone className="h-4 w-4 mr-2" />
                     Call {siteConfig.phone}
                   </Button>

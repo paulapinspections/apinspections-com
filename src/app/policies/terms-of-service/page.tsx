@@ -52,7 +52,7 @@ export default function TermsPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact</h2>
-            <p>Questions about these terms? Contact us at <a href={`mailto:${siteConfig.email}`} className="text-blue-600 hover:underline">{siteConfig.email}</a> or {siteConfig.phone}.</p>
+            <p>Questions about these terms? Contact us at <a href={`mailto:${siteConfig.email}`} className="text-black hover:underline">{siteConfig.email}</a> or {siteConfig.phone}.</p>
           </section>
         </div>
       </div>

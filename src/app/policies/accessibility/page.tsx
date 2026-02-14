@@ -38,8 +38,8 @@ export default function AccessibilityPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Feedback</h2>
             <p>If you encounter accessibility barriers, please contact us:</p>
             <ul className="list-none space-y-2 mt-4">
-              <li>Phone: <a href={`tel:${siteConfig.phone.replace(/\D/g, "")}`} className="text-blue-600 hover:underline">{siteConfig.phone}</a></li>
-              <li>Email: <a href={`mailto:${siteConfig.email}`} className="text-blue-600 hover:underline">{siteConfig.email}</a></li>
+              <li>Phone: <a href={`tel:${siteConfig.phone.replace(/\D/g, "")}`} className="text-black hover:underline">{siteConfig.phone}</a></li>
+              <li>Email: <a href={`mailto:${siteConfig.email}`} className="text-black hover:underline">{siteConfig.email}</a></li>
             </ul>
           </section>
         </div>

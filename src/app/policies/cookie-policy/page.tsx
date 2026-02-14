@@ -36,8 +36,8 @@ export default function CookiePolicyPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">More Information</h2>
-            <p>For more details on how we handle your data, see our <Link href="/policies/privacy-policy" className="text-blue-600 hover:underline">Privacy Policy</Link>.</p>
-            <p className="mt-4">Questions? Contact us at <a href={`mailto:${siteConfig.email}`} className="text-blue-600 hover:underline">{siteConfig.email}</a>.</p>
+            <p>For more details on how we handle your data, see our <Link href="/policies/privacy-policy" className="text-black hover:underline">Privacy Policy</Link>.</p>
+            <p className="mt-4">Questions? Contact us at <a href={`mailto:${siteConfig.email}`} className="text-black hover:underline">{siteConfig.email}</a>.</p>
           </section>
         </div>
       </div>

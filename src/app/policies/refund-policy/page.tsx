@@ -51,7 +51,7 @@ export default function RefundPolicyPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Questions</h2>
-            <p>For questions about our refund policy, contact us at <a href={`tel:${siteConfig.phone.replace(/\D/g, "")}`} className="text-blue-600 hover:underline">{siteConfig.phone}</a> or <a href={`mailto:${siteConfig.email}`} className="text-blue-600 hover:underline">{siteConfig.email}</a>.</p>
+            <p>For questions about our refund policy, contact us at <a href={`tel:${siteConfig.phone.replace(/\D/g, "")}`} className="text-black hover:underline">{siteConfig.phone}</a> or <a href={`mailto:${siteConfig.email}`} className="text-black hover:underline">{siteConfig.email}</a>.</p>
           </section>
         </div>
       </div>
