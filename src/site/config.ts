@@ -197,11 +197,11 @@ export const siteConfig: SiteConfig = {
     },
     {
       question: "Are you licensed and insured?",
-      answer: "Yes, we are fully licensed, insured, and bonded. Our license number is IL-12345, and we carry both general liability and errors & omissions insurance.",
+      answer: "Yes, we are fully licensed, insured, and bonded. Our license number is IN-#####, and we carry both general liability and errors & omissions insurance.",
     },
     {
       question: "Do you offer additional services like radon or mold testing?",
-      answer: "Yes! In addition to standard home inspections, we offer radon testing, mold inspections, termite inspections, and more. These can often be done during the same visit.",
+      answer: "We do not currently offer Radon or Mold testing. These services can often be arranged through third-party providers during the same visit.",
     },
     {
       question: "What if you find major problems?",
