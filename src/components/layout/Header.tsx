@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
@@ -25,10 +26,20 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="text-2xl font-bold text-black">
-                {siteConfig.businessName}
+            <Link href="/" className="flex items-center gap-3">
+              <div className="bg-white rounded-md p-1 border border-gray-200">
+                <Image
+                  src={siteConfig.images.logo}
+                  alt={siteConfig.images.logoAlt}
+                  width={140}
+                  height={40}
+                  className="h-10 w-auto"
+                  priority
+                />
               </div>
+              <span className="text-lg font-bold text-black hidden sm:inline">
+                {siteConfig.businessName}
+              </span>
             </Link>
           </div>
 

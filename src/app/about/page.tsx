@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Shield, Award, Clock, Users, Phone, ArrowRight } from "lucide-react";
 import { siteConfig } from "@/site/config";
@@ -123,6 +124,17 @@ export default function AboutPage() {
       {/* Our Commitment */}
       <section className="py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center mb-8">
+            <div className="bg-white rounded-lg p-3">
+              <Image
+                src={siteConfig.images.logo}
+                alt={siteConfig.images.logoAlt}
+                width={320}
+                height={96}
+                className="h-45 w-auto"
+              />
+            </div>
+          </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Our Commitment</h2>
           <div className="space-y-6 text-gray-800">
             <div className="bg-white p-6 rounded-lg shadow-md">

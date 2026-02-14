@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Facebook, Instagram, Twitter, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import { siteConfig } from "@/site/config";
@@ -20,7 +21,15 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company info */}
           <div className="md:col-span-1">
-            <h3 className="text-white text-lg font-bold mb-4">{siteConfig.businessName}</h3>
+            <div className="inline-block bg-white rounded-md p-2 mb-4">
+              <Image
+                src={siteConfig.images.logo}
+                alt={siteConfig.images.logoAlt}
+                width={170}
+                height={48}
+                className="h-12 w-auto"
+              />
+            </div>
             <p className="text-sm mb-4 text-gray-400">{siteConfig.tagline}</p>
             {siteConfig.licenseNumber && (
               <p className="text-sm text-gray-400">License: {siteConfig.licenseNumber}</p>

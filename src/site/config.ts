@@ -215,8 +215,8 @@ export const siteConfig: SiteConfig = {
   
   // Images
   images: {
-    logo: "/brand/logo.svg",
-    logoAlt: "Premier Home Inspections Logo",
+    logo: "/brand/logo.png",
+    logoAlt: "AP Inspections Logo",
     hero: "/brand/hero.png",
     ogImage: "/brand/og.png",
   },
