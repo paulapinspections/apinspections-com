@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: `${siteConfig.businessName} - ${siteConfig.tagline}`,
     template: `%s | ${siteConfig.businessName}`,
   },
-  description: `Professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Licensed, insured, and thorough inspections with ${siteConfig.inspectionReportSameDay ? "same-day" : "fast"} reports.`,
+  description: `Professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Licensed, qualified, and thorough inspections with ${siteConfig.inspectionReportSameDay ? "same-day" : "fast"} reports.`,
   keywords: [
     ...siteConfig.seoKeywords,
     `${siteConfig.city} ${siteConfig.state} home inspector`,

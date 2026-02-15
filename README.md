@@ -1,6 +1,6 @@
-# Home Inspector Website Template
+# AP Inspections Website Setup
 
-A modern, fast, SEO-friendly website template for home inspection businesses. Built with Next.js, TypeScript, and Tailwind CSS. Designed to be easily customized per client by editing a single config file.
+A modern, fast, SEO-friendly website for home inspection businesses. Built with Next.js, TypeScript, and Tailwind CSS. Designed to be easily customized per client by editing a single config file.
 
 ## 🚀 Features
 

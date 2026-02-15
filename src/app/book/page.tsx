@@ -85,7 +85,7 @@ export default function BookPage() {
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-black mr-2 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-gray-800">Licensed & insured professionals</span>
+                    <span className="text-sm text-gray-800">Licensed professionals</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-black mr-2 flex-shrink-0 mt-0.5" />

@@ -8,11 +8,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: `Learn more about ${siteConfig.businessName}, your trusted home inspection service in ${siteConfig.city}, ${siteConfig.state}. Licensed, insured, and committed to excellence.`,
+  description: `Learn more about ${siteConfig.businessName}, your trusted home inspection service in ${siteConfig.city}, ${siteConfig.state}. Licensed, qualified, and committed to excellence.`,
   keywords: [
     `${siteConfig.businessName} about`,
     "licensed home inspector",
-    "insured home inspection company",
+    "qualified home inspection company",
     `${siteConfig.city} ${siteConfig.state} home inspection company`,
   ],
   alternates: {
@@ -64,10 +64,11 @@ export default function AboutPage() {
                 Why Choose {siteConfig.businessName}?
               </h3>
               <p className="text-gray-200 mb-4">
-                With years of experience in the home inspection industry, we've built our reputation
-                on reliability, expertise, and a commitment to our clients. Every inspection is
-                performed with the same level of care and professionalism, whether you're a first-time
-                homebuyer or a seasoned real estate investor.
+                As a newly established business, we focus on doing things right from day one. Our
+                inspector is licensed and professionally trained, with every inspection
+                performed according to recognized industry standards. Whether you're a first-time
+                homebuyer or a seasoned real estate investor, you'll receive the same thorough,
+                objective, and professional service.
               </p>
             </div>
           </div>
@@ -82,10 +83,10 @@ export default function AboutPage() {
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gray-200 mb-4">
                 <Shield className="h-8 w-8 text-black" />
               </div>
-              <h3 className="text-lg font-semibold mb-2 text-gray-900">Licensed & Insured</h3>
+              <h3 className="text-lg font-semibold mb-2 text-gray-900">Licensed</h3>
               <p className="text-gray-700">
                 {siteConfig.licenseNumber && `License #${siteConfig.licenseNumber}. `}
-                Fully insured and bonded for your protection
+                Qualified and professionally trained for thorough inspections
               </p>
             </div>
             <div className="text-center">
@@ -94,7 +95,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-lg font-semibold mb-2 text-gray-900">Experienced</h3>
               <p className="text-gray-700">
-                Years of experience inspecting homes throughout {siteConfig.state}
+                Professionally trained and qualified to inspect homes throughout {siteConfig.state}
               </p>
             </div>
             <div className="text-center">

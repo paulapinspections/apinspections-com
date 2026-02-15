@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Home",
-  description: `${siteConfig.businessName} provides professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Licensed, insured, and bonded with ${siteConfig.inspectionReportSameDay ? "same-day" : "fast"} detailed reports.`,
+  description: `${siteConfig.businessName} provides professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Licensed and thorough, with ${siteConfig.inspectionReportSameDay ? "same-day" : "fast"} detailed reports.`,
   keywords: [
     ...siteConfig.seoKeywords,
     `${siteConfig.businessName} home inspection`,
@@ -72,9 +72,9 @@ export default function HomePage() {
                 <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white/15">
                   <Shield className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="mt-4 text-lg font-semibold text-white">Licensed & Insured</h3>
+                <h3 className="mt-4 text-lg font-semibold text-white">Licensed Professionals</h3>
                 <p className="mt-2 text-sm text-gray-200">
-                  Fully licensed, insured, and bonded for your protection
+                  Professional, standards-based inspections you can trust
                 </p>
               </div>
               <div className="text-center">

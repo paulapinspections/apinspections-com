@@ -34,7 +34,6 @@ export function Footer() {
             {siteConfig.licenseNumber && (
               <p className="text-sm text-gray-400">License: {siteConfig.licenseNumber}</p>
             )}
-            {siteConfig.insured && <p className="text-sm text-gray-400">Licensed & Insured</p>}
           </div>
 
           {/* Quick links */}

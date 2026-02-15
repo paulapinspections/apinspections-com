@@ -43,8 +43,6 @@ export interface SiteConfig {
   serviceArea: string[];
   hours: string;
   licenseNumber?: string;
-  insured: boolean;
-  bonded: boolean;
   
   // Branding
   primaryColor: string;
@@ -90,7 +88,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Thorough, Professional, Trusted",
   
   // Contact
-  phone: "(260) 665-6568",
+  phone: "(260) 665-6848",
   email: "info@ap-inspections.com",
   address: "1335 N 170 W",
   city: "Angola",
@@ -110,8 +108,6 @@ export const siteConfig: SiteConfig = {
   ],
   hours: "Monday - Friday: 7:00 AM - 500 PM",
   licenseNumber: "Coming Soon",
-  insured: true,
-  bonded: true,
   
   // Branding
   primaryColor: "black",
@@ -142,19 +138,19 @@ export const siteConfig: SiteConfig = {
       description: "Phase inspections during construction and final walk-through to ensure quality and code compliance.",
       startingPrice: "$400",
       icon: "hammer",
-    },
+    }
     //{
       //name: "Radon Testing",
       //description: "Professional radon testing to detect dangerous levels of this invisible, odorless gas in your home.",
       //startingPrice: "$150",
       //icon: "wind",
     //},
-    {
-      name: "Mold Inspection",
-      description: "Visual inspection and air quality testing to identify mold growth and moisture issues.",
-      startingPrice: "$275",
-      icon: "droplet",
-    },
+    //{
+      //name: "Mold Inspection",
+      //description: "Visual inspection and air quality testing to identify mold growth and moisture issues.",
+      //startingPrice: "$275",
+      //icon: "droplet",
+    //},
     //{
       //name: "Termite & Pest Inspection",
       //description: "Thorough inspection for wood-destroying insects and other pest damage.",
@@ -196,8 +192,8 @@ export const siteConfig: SiteConfig = {
       answer: "We strongly encourage it! Being present allows you to ask questions, learn about your potential home, and see any issues firsthand. We'll walk through our findings with you.",
     },
     {
-      question: "Are you licensed and insured?",
-      answer: "Yes, we are fully licensed, insured, and bonded. Our license number is IN-#####, and we carry both general liability and errors & omissions insurance.",
+      question: "Are you licensed?",
+      answer: "Yes, we are fully licensed. Our license number is IN-#####.",
     },
     {
       question: "Do you offer additional services like radon or mold testing?",
@@ -236,7 +232,6 @@ export const siteConfig: SiteConfig = {
     "mold inspection",
     "same-day inspection report",
     "licensed home inspector",
-    "insured home inspector",
     "home inspection Angola IN",
     "home inspector Steuben County",
     "home inspector Dekalb County",

@@ -47,7 +47,7 @@ export default function TermsPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Liability</h2>
-            <p>Our liability is limited to the fee paid for our services. We carry errors and omissions insurance as required by law.</p>
+            <p>Our liability is limited to the fee paid for our services.</p>
           </section>
 
           <section>
