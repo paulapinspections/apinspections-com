@@ -14,10 +14,7 @@ import { Button } from "@/components/ui/button";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: {
-    default: siteConfig.businessName,
-    template: undefined,
-  },
+  title: siteConfig.businessName,
   description: `${siteConfig.businessName} provides professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Licensed and thorough, with ${siteConfig.inspectionReportSameDay ? "same-day" : "fast"} detailed reports.`,
   keywords: [
     ...siteConfig.seoKeywords,
