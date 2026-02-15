@@ -88,7 +88,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Thorough, Professional, Trusted",
   
   // Contact
-  phone: "(260) 665-6848",
+  phone: "(260) 668-6848",
   email: "info@ap-inspections.com",
   address: "1335 N 170 W",
   city: "Angola",
