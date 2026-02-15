@@ -114,10 +114,10 @@ export const siteConfig: SiteConfig = {
   accentColor: "white",
   
   // Social
-  socialLinks: {
-    facebook: "https://facebook.com/ap-inspections",
-    instagram: "https://instagram.com/ap-inspections",
-  },
+  //socialLinks: {
+    //facebook: "https://facebook.com/ap-inspections",
+    //instagram: "https://instagram.com/ap-inspections",
+  //},
   
   // Services
   services: [
