@@ -107,7 +107,7 @@ export const siteConfig: SiteConfig = {
     "Dekalb County",
   ],
   hours: "Monday - Friday: 7:00 AM - 500 PM",
-  licenseNumber: "Coming Soon",
+  licenseNumber: "Licensed",
   
   // Branding
   primaryColor: "black",
