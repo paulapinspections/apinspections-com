@@ -193,7 +193,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       question: "Are you licensed?",
-      answer: "Yes, we are fully licensed. Our license number is IN-#####.",
+      answer: "Yes, we are fully licensed in Indiana. Contact us if you require the license number",
     },
     {
       question: "Do you offer additional services like radon or mold testing?",
