@@ -218,7 +218,7 @@ export const siteConfig: SiteConfig = {
   },
   
   // Site
-  siteUrl: process.env.SITE_URL || "https://ap-inspections.com",
+  siteUrl: (globalThis as any).process?.env?.SITE_URL || "https://ap-inspections.com",
 
   // SEO
   seoKeywords: [
