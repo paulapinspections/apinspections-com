@@ -49,7 +49,7 @@ export interface SiteConfig {
   accentColor: string;
   
   // Social
-  socialLinks: SocialLinks;
+  socialLinks?: SocialLinks;
   
   // Services
   services: Service[];
