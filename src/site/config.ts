@@ -79,6 +79,9 @@ export interface SiteConfig {
   // Optional features
   showAnnouncementBanner: boolean;
   announcementText?: string;
+
+  // External links
+  sampleReportUrl?: string;
 }
 
 export const siteConfig: SiteConfig = {
@@ -240,4 +243,7 @@ export const siteConfig: SiteConfig = {
   // Optional features
   showAnnouncementBanner: true,
   announcementText: "Now scheduling inspections for next week! Call today to reserve your spot.",
+
+  // External links
+  sampleReportUrl: "https://app.inspectforge.com/inspections/e6d829e3-4084-4dd5-8e32-34ff44fec57d/report",
 };

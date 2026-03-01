@@ -46,6 +46,18 @@ export function Footer() {
               <li><Link href="/areas-served" className="hover:text-white transition-colors text-gray-300">Areas Served</Link></li>
               <li><Link href="/faq" className="hover:text-white transition-colors text-gray-300">FAQ</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors text-gray-300">Contact</Link></li>
+              {siteConfig.sampleReportUrl && (
+                <li>
+                  <a
+                    href={siteConfig.sampleReportUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors text-gray-300"
+                  >
+                    Sample Report
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
 
