@@ -91,7 +91,7 @@ export function Footer() {
 
             {/* Social links */}
             <div className="flex space-x-4 mt-6">
-              {Object.entries(siteConfig.socialLinks).map(([platform, url]) => {
+              {siteConfig.socialLinks && Object.entries(siteConfig.socialLinks).map(([platform, url]) => {
                 if (!url) return null;
                 const Icon = socialIcons[platform as keyof typeof socialIcons];
                 return Icon ? (
