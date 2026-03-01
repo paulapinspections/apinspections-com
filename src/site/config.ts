@@ -245,5 +245,5 @@ export const siteConfig: SiteConfig = {
   announcementText: "Now scheduling inspections for next week! Call today to reserve your spot.",
 
   // External links
-  sampleReportUrl: "https://app.inspectforge.com/inspections/e6d829e3-4084-4dd5-8e32-34ff44fec57d/report",
+  sampleReportUrl: "/sample-report.pdf",
 };
