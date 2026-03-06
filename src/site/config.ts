@@ -167,7 +167,7 @@ export const siteConfig: SiteConfig = {
     {
       name: "David Nester",
       location: "Fremont, IN",
-      text: "Premier Home Inspections was incredibly thorough and professional. The same-day report was detailed and easy to understand. Highly recommend!",
+      text: "AP Inspections was incredibly thorough and professional. The same-day report was detailed and easy to understand. Highly recommend!",
       rating: 5,
     },
   ],
