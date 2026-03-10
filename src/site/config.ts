@@ -100,10 +100,6 @@ export const siteConfig: SiteConfig = {
   
   // Service details
   serviceArea: [
-    "Angola",
-    "Auburn",
-    "Hamilton",
-    "Fremont",
     "Noble County",
     "Lagrange County",
     "Steuben County",
