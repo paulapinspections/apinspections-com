@@ -49,7 +49,8 @@ export interface SiteConfig {
   primaryColor: string;
   accentColor: string;
   
-  // Social
+  // Social & profiles
+  googleBusinessProfile?: string;
   socialLinks?: SocialLinks;
   
   // Services
@@ -114,7 +115,8 @@ export const siteConfig: SiteConfig = {
   primaryColor: "black",
   accentColor: "white",
   
-  // Social
+  // Social & profiles
+  googleBusinessProfile: "https://share.google/7814hPQtGVNOPIg32",
   //socialLinks: {
     //facebook: "https://facebook.com/ap-inspections",
     //instagram: "https://instagram.com/ap-inspections",

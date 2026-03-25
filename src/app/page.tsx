@@ -243,6 +243,9 @@ export default function HomePage() {
             url: siteConfig.siteUrl,
             telephone: siteConfig.phone,
             email: siteConfig.email,
+            ...(siteConfig.googleBusinessProfile && {
+              sameAs: [siteConfig.googleBusinessProfile],
+            }),
             address: {
               "@type": "PostalAddress",
               streetAddress: siteConfig.address,
