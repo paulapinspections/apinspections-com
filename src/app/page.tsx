@@ -14,12 +14,13 @@ import { Button } from "@/components/ui/button";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: siteConfig.businessName,
-  description: `${siteConfig.businessName} provides professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Licensed and thorough, with ${siteConfig.inspectionReportSameDay ? "same-day" : "fast"} detailed reports.`,
+  title: `Home Inspector in ${siteConfig.city}, ${siteConfig.state} — ${siteConfig.businessName}`,
+  description: `${siteConfig.businessName} provides certified, professional home inspection services in ${siteConfig.city}, ${siteConfig.state} and surrounding counties. Same-day detailed reports. AHI certified. Call ${siteConfig.phone}.`,
   keywords: [
     ...siteConfig.seoKeywords,
     `${siteConfig.businessName} home inspection`,
     `${siteConfig.city} home inspector`,
+    `best home inspector ${siteConfig.city} ${siteConfig.state}`,
   ],
   alternates: {
     canonical: "/",
@@ -40,10 +41,13 @@ export default function HomePage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                {siteConfig.tagline}
+                Certified Home Inspector in {siteConfig.city}, {siteConfig.state}
               </h1>
-              <p className="mt-6 text-xl max-w-3xl mx-auto text-gray-200">
-                Professional home inspection services in {siteConfig.city}, {siteConfig.state}.
+              <p className="mt-3 text-lg font-medium text-gray-300 tracking-wide">
+                {siteConfig.tagline}
+              </p>
+              <p className="mt-4 text-xl max-w-3xl mx-auto text-gray-200">
+                Professional home inspection services serving northeast Indiana.
                 {siteConfig.inspectionReportSameDay && " Same-day detailed reports."}
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
@@ -225,16 +229,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* JSON-LD Schema */}
+      {/* JSON-LD LocalBusiness Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": "ProfessionalService",
             "@id": siteConfig.siteUrl,
             name: siteConfig.businessName,
             legalName: siteConfig.legalName,
+            description: `Certified home inspection services in ${siteConfig.city}, ${siteConfig.state}. Pre-purchase, pre-listing, and new construction inspections with same-day reports.`,
             url: siteConfig.siteUrl,
             telephone: siteConfig.phone,
             email: siteConfig.email,
@@ -246,17 +251,89 @@ export default function HomePage() {
               postalCode: siteConfig.zip,
               addressCountry: "US",
             },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 41.6348,
+              longitude: -84.9994,
+            },
             areaServed: siteConfig.serviceArea.map(area => ({
-              "@type": "City",
+              "@type": "AdministrativeArea",
               name: area,
             })),
-            openingHours: "Mo-Sa 07:00-19:00",
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                opens: "07:00",
+                closes: "17:00",
+              },
+            ],
             priceRange: "$$",
             image: `${siteConfig.siteUrl}${siteConfig.images.ogImage}`,
             logo: `${siteConfig.siteUrl}${siteConfig.images.logo}`,
+            hasCredential: {
+              "@type": "EducationalOccupationalCredential",
+              credentialCategory: "Professional Certification",
+              name: "AHI - ASHI Home Inspector",
+            },
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Home Inspection Services",
+              itemListElement: siteConfig.services.map(service => ({
+                "@type": "Offer",
+                itemOffered: {
+                  "@type": "Service",
+                  name: service.name,
+                  description: service.description,
+                },
+                ...(service.startingPrice && {
+                  priceSpecification: {
+                    "@type": "PriceSpecification",
+                    price: service.startingPrice.replace("$", ""),
+                    priceCurrency: "USD",
+                    minPrice: service.startingPrice.replace("$", ""),
+                  },
+                }),
+              })),
+            },
           }),
         }}
       />
+
+      {/* JSON-LD Review Schema */}
+      {siteConfig.testimonials.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              "@id": siteConfig.siteUrl,
+              name: siteConfig.businessName,
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: (siteConfig.testimonials.reduce((sum, t) => sum + t.rating, 0) / siteConfig.testimonials.length).toFixed(1),
+                reviewCount: siteConfig.testimonials.length,
+                bestRating: "5",
+                worstRating: "1",
+              },
+              review: siteConfig.testimonials.map(testimonial => ({
+                "@type": "Review",
+                reviewRating: {
+                  "@type": "Rating",
+                  ratingValue: testimonial.rating,
+                  bestRating: "5",
+                },
+                author: {
+                  "@type": "Person",
+                  name: testimonial.name,
+                },
+                reviewBody: testimonial.text,
+              })),
+            }),
+          }}
+        />
+      )}
     </div>
   );
 }

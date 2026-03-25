@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { siteConfig } from "@/site/config";
+import { serviceAreaCities } from "@/site/service-areas";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.siteUrl;
@@ -90,5 +91,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    // City-specific service area pages
+    ...serviceAreaCities.map((city) => ({
+      url: `${baseUrl}/areas-served/${city.slug}`,
+      lastModified: currentDate,
+      changeFrequency: "monthly" as const,
+      priority: city.tier === 1 ? 0.8 : city.tier === 2 ? 0.7 : 0.6,
+    })),
   ];
 }

@@ -43,6 +43,7 @@ export interface SiteConfig {
   serviceArea: string[];
   hours: string;
   licenseNumber?: string;
+  certifications?: string[];
   
   // Branding
   primaryColor: string;
@@ -105,8 +106,9 @@ export const siteConfig: SiteConfig = {
     "Steuben County",
     "Dekalb County",
   ],
-  hours: "Monday - Friday: 7:00 AM - 500 PM",
+  hours: "Monday - Friday: 7:00 AM - 5:00 PM",
   licenseNumber: "Licensed",
+  certifications: ["AHI (ASHI Home Inspector)"],
   
   // Branding
   primaryColor: "black",
@@ -228,12 +230,21 @@ export const siteConfig: SiteConfig = {
     "pre-purchase inspection",
     "pre-listing inspection",
     "new construction inspection",
-    "mold inspection",
     "same-day inspection report",
     "licensed home inspector",
+    "certified home inspector",
     "home inspection Angola IN",
+    "home inspection Angola Indiana",
     "home inspector Steuben County",
     "home inspector Dekalb County",
+    "home inspector Noble County",
+    "home inspector Lagrange County",
+    "home inspector near me",
+    "home inspection near me",
+    "home inspector Fremont IN",
+    "home inspector Auburn IN",
+    "home inspector Kendallville IN",
+    "home inspector LaGrange IN",
   ],
   
   // Optional features

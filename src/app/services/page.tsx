@@ -15,15 +15,15 @@ import { Button } from "@/components/ui/button";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services",
-  description: `Comprehensive home inspection services including pre-purchase inspections, pre-listing inspections, radon testing, mold inspection, and more. Serving ${siteConfig.city}, ${siteConfig.state}.`,
+  title: `Home Inspection Services in ${siteConfig.city}, ${siteConfig.state}`,
+  description: `Professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Pre-purchase, pre-listing, and new construction inspections with same-day reports. Starting at $300. Call ${siteConfig.phone}.`,
   keywords: [
     "home inspection services",
     "pre-purchase home inspection",
     "pre-listing home inspection",
     "new construction inspection",
-    "mold inspection",
     `${siteConfig.city} inspection services`,
+    `home inspection cost ${siteConfig.city}`,
   ],
   alternates: {
     canonical: "/services",
@@ -53,7 +53,7 @@ export default function ServicesPage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-                Our Services
+                Home Inspection Services in {siteConfig.city}, {siteConfig.state}
               </h1>
               <p className="mt-4 text-xl text-gray-200 max-w-3xl mx-auto">
                 Comprehensive home inspection services to protect your investment

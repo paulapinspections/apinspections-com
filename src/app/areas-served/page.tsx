@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { MapPin, Phone, ArrowRight } from "lucide-react";
 import { siteConfig } from "@/site/config";
+import { serviceAreaCities } from "@/site/service-areas";
 import { getPhoneLink } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Areas Served",
-  description: `${siteConfig.businessName} provides home inspection services throughout ${siteConfig.city}, ${siteConfig.state} and surrounding areas including ${siteConfig.serviceArea.slice(0, 3).join(", ")}.`,
+  title: `Home Inspection Areas Served — Northeast Indiana`,
+  description: `${siteConfig.businessName} provides home inspection services throughout ${siteConfig.city}, ${siteConfig.state} and surrounding areas including ${siteConfig.serviceArea.join(", ")}. Up to 1 hour from Angola.`,
   keywords: [
     "home inspection areas served",
     `${siteConfig.city} home inspector`,
@@ -53,18 +54,40 @@ export default function AreasServedPage() {
               </p>
             </div>
 
-            {/* Service Areas Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
-              {siteConfig.serviceArea.map((area) => (
-                <div
-                  key={area}
-                  className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow border border-gray-100"
-                >
-                  <MapPin className="h-6 w-6 text-black mx-auto mb-2" />
-                  <p className="font-semibold text-gray-900">{area}</p>
+            {/* Service Areas by County */}
+            {(() => {
+              const counties = [...new Set(serviceAreaCities.map((c) => c.county))];
+              return (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                  {counties.map((county) => {
+                    const cities = serviceAreaCities.filter((c) => c.county === county);
+                    return (
+                      <div key={county} className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+                        <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center">
+                          <MapPin className="h-5 w-5 text-black mr-2" />
+                          {county}
+                        </h3>
+                        <ul className="space-y-2">
+                          {cities.map((city) => (
+                            <li key={city.slug}>
+                              <Link
+                                href={`/areas-served/${city.slug}`}
+                                className="text-gray-800 hover:text-black hover:underline transition-colors"
+                              >
+                                {city.name}, {city.stateAbbr}
+                                <span className="text-sm text-gray-500 ml-2">
+                                  ~{city.driveTimeMinutes} min
+                                </span>
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  })}
                 </div>
-              ))}
-            </div>
+              );
+            })()}
 
             {/* Additional Info */}
             <div className="mt-16 max-w-3xl mx-auto">
