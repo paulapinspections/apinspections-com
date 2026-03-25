@@ -5,8 +5,8 @@ date: "2026-03-26"
 category: "Home Inspection Education"
 tags: ["what-to-expect", "inspection-process", "home-inspection-basics"]
 excerpt: "Not sure what happens during a home inspection? Here is a clear walkthrough of the process from start to finish so you know exactly what to expect."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "Home inspector examining roof and exterior of house"
+featuredImage: "/blog/images/Attic Inspection sample.png"
+featuredImageAlt: "Inspector examining attic during a home inspection"
 author: "AP Inspections"
 published: true
 ---

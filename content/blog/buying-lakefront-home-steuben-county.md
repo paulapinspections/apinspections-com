@@ -5,7 +5,7 @@ date: "2026-03-26"
 category: "Indiana Guides"
 tags: ["lakefront-property", "steuben-county", "waterfront-inspection", "indiana"]
 excerpt: "Lakefront homes in Steuben County have unique inspection concerns. Learn what to look for before buying on Clear Lake, Sylvan Lake, or any Indiana lake."
-featuredImage: "/blog/images/default.jpg"
+featuredImage: "/blog/images/Buying a Lake Front Home in Steuben County.png"
 featuredImageAlt: "Lakefront home on a Steuben County Indiana lake"
 author: "AP Inspections"
 published: true

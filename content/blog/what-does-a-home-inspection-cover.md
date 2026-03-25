@@ -5,8 +5,8 @@ date: "2026-03-25"
 category: "Home Inspection Education"
 tags: ["home-inspection-basics", "first-time-buyers", "what-to-expect"]
 excerpt: "A home inspection covers every major system in the house — from the roof to the foundation. Here is exactly what a professional inspector evaluates and why each area matters."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "Home inspector examining property exterior"
+featuredImage: "/blog/images/What does a home inspection cover and report.png"
+featuredImageAlt: "Home inspection report showing what a professional inspection covers"
 author: "AP Inspections"
 published: true
 ---
@@ -99,6 +99,13 @@ A standard home inspection is visual and non-invasive. We do not:
 - Evaluate cosmetic conditions
 
 If specialized testing is needed, we can recommend qualified providers in the area.
+
+## Download Our Inspection Checklists
+
+Want to see exactly what we look for? Download the full checklists our inspectors use:
+
+- [Pre-Purchase Inspection Checklist (PDF)](/PrePurchase Inspection checklist.pdf) — every item we evaluate when you are buying a home
+- [Pre-Listing Inspection Checklist (PDF)](/Pre Listing Inspection checklist.pdf) — what we check when sellers inspect before listing
 
 ## You Get a Same-Day Report
 

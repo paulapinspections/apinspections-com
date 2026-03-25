@@ -5,8 +5,8 @@ date: "2026-03-27"
 category: "Home Inspection Education"
 tags: ["new-construction", "builder-inspection", "quality-assurance"]
 excerpt: "New homes have defects too. Learn why an independent inspection catches what builders and code inspectors miss."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "New construction home under inspection in northeast Indiana"
+featuredImage: "/blog/images/Stairway Inspection photo.png"
+featuredImageAlt: "Inspector checking stairway construction quality in a new build"
 author: "AP Inspections"
 published: true
 ---

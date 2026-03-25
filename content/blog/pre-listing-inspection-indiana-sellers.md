@@ -5,8 +5,8 @@ date: "2026-03-26"
 category: "Indiana Guides"
 tags: ["pre-listing-inspection", "sellers", "indiana", "selling-home"]
 excerpt: "A pre-listing inspection helps Indiana sellers sell faster, negotiate less, and avoid surprises. Learn why smart sellers inspect before they list."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "Home exterior prepared for listing with for-sale sign"
+featuredImage: "/blog/images/External Door Inspection photo.png"
+featuredImageAlt: "Inspector examining exterior door during a pre-listing inspection"
 author: "AP Inspections"
 published: true
 ---
@@ -114,6 +114,12 @@ Steuben County has more natural lakes than almost any other county in Indiana. I
 ## What Does a Pre-Listing Inspection Cost?
 
 At AP Inspections, pre-listing inspections start at **$325** — a modest investment compared to the cost of a delayed closing, a failed deal, or emergency repairs under pressure. Most sellers find that the inspection pays for itself many times over in smoother negotiations and faster sales.
+
+## Download the Pre-Listing Inspection Checklist
+
+See exactly what we evaluate during a pre-listing inspection:
+
+**[Pre-Listing Inspection Checklist (PDF)](/Pre Listing Inspection checklist.pdf)** — the full checklist our inspectors use, so you know what buyers' inspectors will look for.
 
 ## How to Get Started
 

@@ -5,7 +5,7 @@ date: "2026-03-27"
 category: "Home Systems & Issues"
 tags: ["foundation", "structural-issues", "indiana", "common-issues"]
 excerpt: "Learn which foundation cracks are serious and which are cosmetic. Indiana soil and climate create unique risks."
-featuredImage: "/blog/images/default.jpg"
+featuredImage: "/blog/images/Signs of Foundation Problems in Indiana Homes.jpg"
 featuredImageAlt: "Foundation crack in a basement wall of an Indiana home"
 author: "AP Inspections"
 published: true

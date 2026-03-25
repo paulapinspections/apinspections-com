@@ -5,8 +5,8 @@ date: "2026-03-26"
 category: "Indiana Guides"
 tags: ["first-time-buyers", "inspection-checklist", "indiana", "homebuying"]
 excerpt: "A step-by-step inspection checklist for first-time homebuyers in Indiana. Know what to do before, during, and after your home inspection."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "First-time homebuyer reviewing inspection checklist"
+featuredImage: "/blog/images/roof-inspection.jpeg"
+featuredImageAlt: "Roof inspection during a home inspection in Indiana"
 author: "AP Inspections"
 published: true
 ---
@@ -138,6 +138,12 @@ A few things are worth knowing if you are buying in northeast Indiana:
 - **Older homes** in Angola, Kendallville, and Garrett may have outdated wiring, older plumbing, or original windows that affect energy costs.
 - **Flood zones and drainage** matter, especially near lakes and low-lying areas. Ask about water management around the property.
 - **Radon testing** is recommended in Indiana. It is an invisible, odorless gas that can accumulate in basements, and levels vary from home to home.
+
+## Download the Full Pre-Purchase Inspection Checklist
+
+Want the complete list of every item a professional inspector evaluates? Download our full checklist:
+
+**[Pre-Purchase Inspection Checklist (PDF)](/PrePurchase Inspection checklist.pdf)** — the same checklist our inspectors use during every pre-purchase inspection.
 
 ## Your First Inspection Should Feel Like a Learning Experience
 

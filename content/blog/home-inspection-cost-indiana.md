@@ -5,8 +5,8 @@ date: "2026-03-25"
 category: "Indiana Guides"
 tags: ["pricing", "indiana", "first-time-buyers"]
 excerpt: "Home inspection costs in Indiana typically range from $300 to $500. Here is what affects the price and why it is the best investment you will make on a six-figure purchase."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "Home for sale in northeast Indiana"
+featuredImage: "/blog/images/HomeOutsideView.png"
+featuredImageAlt: "Home exterior view in northeast Indiana"
 author: "AP Inspections"
 published: true
 ---

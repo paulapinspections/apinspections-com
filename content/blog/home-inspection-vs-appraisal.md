@@ -5,8 +5,8 @@ date: "2026-03-27"
 category: "Home Inspection Education"
 tags: ["home-inspection-basics", "appraisal", "homebuying", "first-time-buyers"]
 excerpt: "Home inspections and appraisals serve different purposes. Learn what each one covers and why you need both."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "Homebuyer reviewing inspection and appraisal documents"
+featuredImage: "/blog/images/HomeOutsideView.png"
+featuredImageAlt: "Home exterior — inspections and appraisals both evaluate the property"
 author: "AP Inspections"
 published: true
 ---

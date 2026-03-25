@@ -5,8 +5,8 @@ date: "2026-03-26"
 category: "Home Systems & Issues"
 tags: ["electrical", "home-systems", "safety", "common-issues"]
 excerpt: "Electrical problems are among the most serious findings in home inspections. Here are the most common issues we find and why each one matters."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "Home inspector examining electrical panel during inspection"
+featuredImage: "/blog/images/Knob_and_tube_1930.jpg"
+featuredImageAlt: "Knob-and-tube wiring found during a home inspection"
 author: "AP Inspections"
 published: true
 ---

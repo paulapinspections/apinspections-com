@@ -5,8 +5,8 @@ date: "2026-03-27"
 category: "Home Inspection Education"
 tags: ["deal-breakers", "negotiation", "homebuying", "inspection-results"]
 excerpt: "Not every inspection finding is a deal-breaker. Learn what warrants walking away and what is just a negotiation point."
-featuredImage: "/blog/images/default.jpg"
-featuredImageAlt: "Homebuyer reviewing a home inspection report with concern"
+featuredImage: "/blog/images/attic inspection finding.jpg"
+featuredImageAlt: "Inspection finding in an attic that could affect a home sale"
 author: "AP Inspections"
 published: true
 ---
