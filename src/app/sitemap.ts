@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { siteConfig } from "@/site/config";
 import { serviceAreaCities } from "@/site/service-areas";
+import { getAllPosts } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.siteUrl;
@@ -91,6 +92,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    // Blog
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    ...getAllPosts().map((post) => ({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.updated || post.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     // City-specific service area pages
     ...serviceAreaCities.map((city) => ({
       url: `${baseUrl}/areas-served/${city.slug}`,

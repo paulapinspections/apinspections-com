@@ -29,3 +29,47 @@ html {
   outline: 2px solid #000000;
   outline-offset: 2px;
 }
+
+/* Blog article typography */
+.blog-prose h2 {
+  @apply text-2xl font-bold text-gray-900 mt-10 mb-4;
+}
+.blog-prose h3 {
+  @apply text-xl font-semibold text-gray-900 mt-8 mb-3;
+}
+.blog-prose p {
+  @apply text-gray-800 mb-4 leading-relaxed;
+}
+.blog-prose img {
+  @apply rounded-lg my-6 max-w-full h-auto;
+}
+.blog-prose ul {
+  @apply list-disc pl-6 mb-4 space-y-2 text-gray-800;
+}
+.blog-prose ol {
+  @apply list-decimal pl-6 mb-4 space-y-2 text-gray-800;
+}
+.blog-prose li {
+  @apply leading-relaxed;
+}
+.blog-prose a {
+  @apply text-black underline hover:text-gray-600 transition-colors;
+}
+.blog-prose blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-700 my-6;
+}
+.blog-prose strong {
+  @apply font-semibold text-gray-900;
+}
+.blog-prose table {
+  @apply w-full border-collapse my-6;
+}
+.blog-prose th {
+  @apply text-left font-semibold text-gray-900 border-b-2 border-gray-200 py-2 px-3;
+}
+.blog-prose td {
+  @apply text-gray-800 border-b border-gray-100 py-2 px-3;
+}
+.blog-prose hr {
+  @apply my-8 border-gray-200;
+}
