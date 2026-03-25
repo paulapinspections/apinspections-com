@@ -141,9 +141,7 @@ A few things are worth knowing if you are buying in northeast Indiana:
 
 ## Download the Full Pre-Purchase Inspection Checklist
 
-Want the complete list of every item a professional inspector evaluates? Download our full checklist:
-
-**[Pre-Purchase Inspection Checklist (PDF)](/PrePurchase Inspection checklist.pdf)** — the same checklist our inspectors use during every pre-purchase inspection.
+Want the complete list of every item a professional inspector evaluates? **Get your free copy of the checklist below** — the same one our inspectors use during every pre-purchase inspection.
 
 ## Your First Inspection Should Feel Like a Learning Experience
 

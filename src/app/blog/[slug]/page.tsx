@@ -7,7 +7,14 @@ import { getAllPosts, getPostBySlug, getRelatedPosts, renderMarkdown } from "@/l
 import { getPhoneLink } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { PostCard } from "@/components/blog/PostCard";
+import { ChecklistGate } from "@/components/blog/ChecklistGate";
 import type { Metadata } from "next";
+
+const checklistPostMap: Record<string, "pre-purchase" | "pre-listing" | undefined> = {
+  "what-does-a-home-inspection-cover": undefined, // shows both
+  "first-time-homebuyer-inspection-checklist-indiana": "pre-purchase",
+  "pre-listing-inspection-indiana-sellers": "pre-listing",
+};
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -140,6 +147,11 @@ export default async function BlogPostPage({ params }: PageProps) {
             className="blog-prose"
             dangerouslySetInnerHTML={{ __html: htmlContent }}
           />
+
+          {/* Checklist Gate (for posts with checklists) */}
+          {post.slug in checklistPostMap && (
+            <ChecklistGate showOnly={checklistPostMap[post.slug]} />
+          )}
 
           {/* Tags */}
           {post.tags.length > 0 && (

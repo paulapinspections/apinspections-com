@@ -102,10 +102,7 @@ If specialized testing is needed, we can recommend qualified providers in the ar
 
 ## Download Our Inspection Checklists
 
-Want to see exactly what we look for? Download the full checklists our inspectors use:
-
-- [Pre-Purchase Inspection Checklist (PDF)](/PrePurchase Inspection checklist.pdf) — every item we evaluate when you are buying a home
-- [Pre-Listing Inspection Checklist (PDF)](/Pre Listing Inspection checklist.pdf) — what we check when sellers inspect before listing
+Want to see exactly what we look for? Download the full checklists our inspectors use — covering every item we evaluate during a pre-purchase or pre-listing inspection. **Get your free copies below.**
 
 ## You Get a Same-Day Report
 

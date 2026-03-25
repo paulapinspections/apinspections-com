@@ -117,9 +117,7 @@ At AP Inspections, pre-listing inspections start at **$325** — a modest invest
 
 ## Download the Pre-Listing Inspection Checklist
 
-See exactly what we evaluate during a pre-listing inspection:
-
-**[Pre-Listing Inspection Checklist (PDF)](/Pre Listing Inspection checklist.pdf)** — the full checklist our inspectors use, so you know what buyers' inspectors will look for.
+See exactly what we evaluate during a pre-listing inspection. **Get your free copy below** — the same checklist our inspectors use, so you know what buyers' inspectors will look for.
 
 ## How to Get Started
 
