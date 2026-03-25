@@ -277,7 +277,7 @@ export default function HomePage() {
             hasCredential: {
               "@type": "EducationalOccupationalCredential",
               credentialCategory: "Professional Certification",
-              name: "AHI - ASHI Home Inspector",
+              name: "AHI Certified Home Inspector",
             },
             hasOfferCatalog: {
               "@type": "OfferCatalog",

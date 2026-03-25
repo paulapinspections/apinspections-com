@@ -54,7 +54,7 @@
 ## Differentiation
 **Key differentiators:**
 - Same-day detailed reports with photo documentation
-- Licensed and AHI (ASHI Home Inspector) certified in Indiana
+- Licensed and AHI certified in Indiana
 - Thorough coverage of all major systems (structure, electrical, plumbing, HVAC, roof, safety)
 - Local expertise in northeast Indiana building conditions and codes
 - Personal, client-focused approach (not a franchise)
@@ -110,7 +110,7 @@
 - Same-day detailed reports (key differentiator)
 - 2–4 hour thorough inspections
 - Licensed in Indiana
-- AHI (ASHI Home Inspector) certified
+- AHI certified
 - Coverage of all major home systems
 - Google Business Profile: AP Inspections LLC (claimed, access pending)
 **Customers:** Homebuyers and sellers in Noble, Lagrange, Steuben, and Dekalb counties

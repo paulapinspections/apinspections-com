@@ -154,4 +154,4 @@ The good news is that nearly every electrical issue we find can be resolved by a
 
 The key is knowing what you are dealing with before you buy — and that is exactly what a thorough home inspection provides.
 
-**Have questions about electrical concerns in a home you are buying?** Call AP Inspections at **(260) 668-6848** or [book your inspection online](/book). We are AHI (ASHI Home Inspector) certified and licensed in Indiana, serving Angola and all of northeast Indiana.
+**Have questions about electrical concerns in a home you are buying?** Call AP Inspections at **(260) 668-6848** or [book your inspection online](/book). We are AHI certified and licensed in Indiana, serving Angola and all of northeast Indiana.

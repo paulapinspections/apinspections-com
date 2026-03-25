@@ -109,7 +109,7 @@ export const siteConfig: SiteConfig = {
   ],
   hours: "Monday - Friday: 7:00 AM - 5:00 PM",
   licenseNumber: "Licensed",
-  certifications: ["AHI (ASHI Home Inspector)"],
+  certifications: ["AHI Certified"],
   
   // Branding
   primaryColor: "black",

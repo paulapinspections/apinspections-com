@@ -120,12 +120,12 @@ Keep in mind that no home is perfect. Even new construction has findings. The go
 
 Not all inspections are created equal. When choosing an inspector, look for:
 
-- **Certification and licensing** — In Indiana, home inspectors must be licensed. Certification from organizations like ASHI demonstrates additional commitment to standards and education.
+- **Certification and licensing** — In Indiana, home inspectors must be licensed. Professional certifications like AHI demonstrate additional commitment to standards and education.
 - **Experience in the area** — An inspector familiar with northeast Indiana homes understands the common issues in this region, from older foundations in Garrett to lakefront concerns in Steuben County.
 - **Clear communication** — Your inspector should explain findings in a way you can understand, not bury you in technical language.
 - **Thorough reporting** — Same-day delivery with photos and clear descriptions is the standard you should expect.
 
-At AP Inspections, we are AHI (ASHI Home Inspector) certified and licensed in Indiana. We have inspected homes throughout Steuben, Noble, DeKalb, and LaGrange counties — from century-old farmhouses in Albion to new builds in Auburn.
+At AP Inspections, we are AHI certified and licensed in Indiana. We have inspected homes throughout Steuben, Noble, DeKalb, and LaGrange counties — from century-old farmhouses in Albion to new builds in Auburn.
 
 ## The Inspection Is on Your Side
 

@@ -147,6 +147,6 @@ Want the complete list of every item a professional inspector evaluates? **Get y
 
 A home inspection is not a pass-or-fail test. It is an education about the home you are about to buy. A good inspector will make sure you leave feeling informed, not overwhelmed.
 
-At AP Inspections, we specialize in making the process clear and approachable for first-time buyers across Steuben, Noble, DeKalb, and LaGrange counties. We are AHI (ASHI Home Inspector) certified, licensed in Indiana, and we deliver same-day detailed reports so you never have to wait to move forward.
+At AP Inspections, we specialize in making the process clear and approachable for first-time buyers across Steuben, Noble, DeKalb, and LaGrange counties. We are AHI certified, licensed in Indiana, and we deliver same-day detailed reports so you never have to wait to move forward.
 
 **Ready to schedule your first home inspection?** Call us at **(260) 668-6848** or [book online](/book) today.

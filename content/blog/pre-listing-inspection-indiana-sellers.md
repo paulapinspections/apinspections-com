@@ -131,6 +131,6 @@ Here is the process:
 4. **Address** any items you choose to fix
 5. **List** your home with confidence and full documentation
 
-We serve sellers throughout Steuben, Noble, DeKalb, and LaGrange counties. We are AHI (ASHI Home Inspector) certified and licensed in Indiana.
+We serve sellers throughout Steuben, Noble, DeKalb, and LaGrange counties. We are AHI certified and licensed in Indiana.
 
 **Ready to inspect before you list?** Call AP Inspections at **(260) 668-6848** or [book your pre-listing inspection online](/book).

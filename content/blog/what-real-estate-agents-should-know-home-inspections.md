@@ -96,7 +96,7 @@ Having an inspector you trust and can recommend to clients is a significant asse
 
 ### Credentials and Licensing
 
-In Indiana, home inspectors must be licensed through the state. Beyond that, look for inspectors with professional certifications like AHI (ASHI Home Inspector), which indicates advanced training and adherence to the ASHI Standards of Practice. AP Inspections holds AHI certification and is fully licensed in Indiana.
+In Indiana, home inspectors must be licensed through the state. Beyond that, look for inspectors with professional certifications like AHI, which indicates advanced training and adherence to rigorous standards of practice. AP Inspections holds AHI certification and is fully licensed in Indiana.
 
 ### Report Quality and Turnaround
 

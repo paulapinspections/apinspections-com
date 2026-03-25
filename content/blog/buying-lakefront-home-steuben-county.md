@@ -109,7 +109,7 @@ Lakefront properties often include structures beyond the main home. While not al
 
 A lakefront home inspection requires an inspector who understands the specific challenges that come with waterfront property. Generic checklists miss the nuances that matter most — moisture patterns, soil conditions, septic proximity, and the unique construction history of lake homes in this part of Indiana.
 
-At AP Inspections, we are AHI (ASHI Home Inspector) certified and licensed in Indiana. We inspect lakefront homes throughout Steuben County, including properties on Clear Lake, Lake James, Sylvan Lake, Lake Gage, and the many smaller lakes in the area. We deliver same-day detailed reports with photos and clear explanations of every finding.
+At AP Inspections, we are AHI certified and licensed in Indiana. We inspect lakefront homes throughout Steuben County, including properties on Clear Lake, Lake James, Sylvan Lake, Lake Gage, and the many smaller lakes in the area. We deliver same-day detailed reports with photos and clear explanations of every finding.
 
 Whether you are buying a year-round home on the water or a weekend getaway near Rome City, we will make sure you understand exactly what you are purchasing.
 

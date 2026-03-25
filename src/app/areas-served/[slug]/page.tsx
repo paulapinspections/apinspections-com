@@ -203,7 +203,7 @@ export default async function CityPage({ params }: PageProps) {
               <div>
                 <h3 className="font-semibold text-gray-900">AHI Certified Inspector</h3>
                 <p className="text-gray-700 text-sm">
-                  ASHI Home Inspector certified — trained to identify issues others miss.
+                  AHI certified — trained to identify issues others miss.
                 </p>
               </div>
             </div>
