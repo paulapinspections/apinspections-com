@@ -68,7 +68,7 @@ export async function POST(request: NextRequest) {
         const resend = new Resend(resendApiKey);
 
         await resend.emails.send({
-          from: "onboarding@resend.dev",
+          from: "AP Inspections <info@ap-inspections.com>",
           to: contactEmail,
           subject: `Checklist Download: ${checklistName}`,
           replyTo: email,

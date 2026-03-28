@@ -80,7 +80,7 @@ export async function POST(request: NextRequest) {
         const resend = new Resend(resendApiKey);
         
         const emailData = await resend.emails.send({
-          from: "onboarding@resend.dev", // Resend's default sending address
+          from: "AP Inspections <info@ap-inspections.com>",
           to: contactEmail,
           subject: subject || "New Contact Form Submission",
           replyTo: email,
