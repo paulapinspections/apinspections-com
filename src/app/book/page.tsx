@@ -1,8 +1,9 @@
-import { Calendar, CheckCircle, Phone } from "lucide-react";
+import { CheckCircle, Phone } from "lucide-react";
 import { siteConfig } from "@/site/config";
 import { getPhoneLink } from "@/lib/utils";
 import { ContactForm } from "@/components/ContactForm";
 import { Button } from "@/components/ui/button";
+import { InspectForgeBookingEmbed } from "@/components/InspectForgeBookingEmbed";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -119,49 +120,32 @@ export default function BookPage() {
               </div>
             </div>
 
-            {/* Form */}
-            <div className="lg:col-span-2">
-              {siteConfig.bookingLink ? (
-                <div className="bg-white p-8 rounded-lg shadow-lg">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                    <Calendar className="inline h-6 w-6 mr-2 text-black" />
-                    Schedule Online
-                  </h2>
-                  <p className="text-gray-600 mb-6">
-                    Use our online scheduling tool to pick a time that works for you.
-                  </p>
-                  <a href={siteConfig.bookingLink} target="_blank" rel="noopener noreferrer">
-                    <Button size="lg" className="w-full bg-black hover:bg-gray-800 mb-6">
-                      Open Scheduling Tool
-                    </Button>
-                  </a>
-                  <div className="relative my-8">
-                    <div className="absolute inset-0 flex items-center">
-                      <div className="w-full border-t border-gray-300" />
-                    </div>
-                    <div className="relative flex justify-center text-sm">
-                      <span className="bg-white px-4 text-gray-500">Or request via form</span>
-                    </div>
+            {/* Booking Widget + Contact Form */}
+            <div className="lg:col-span-2 space-y-8">
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  Schedule Online
+                </h2>
+                <p className="text-gray-600 mb-6">
+                  Pick a date and time that works for you using our online scheduler.
+                </p>
+                <InspectForgeBookingEmbed />
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <div className="relative mb-8">
+                  <div className="absolute inset-0 flex items-center">
+                    <div className="w-full border-t border-gray-300" />
                   </div>
-                  <ContactForm
-                    subject="Inspection Booking Request"
-                    showAddressField={true}
-                  />
+                  <div className="relative flex justify-center text-sm">
+                    <span className="bg-white px-4 text-gray-500">Or send us a message</span>
+                  </div>
                 </div>
-              ) : (
-                <div className="bg-white p-8 rounded-lg shadow-lg">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                    Request an Inspection
-                  </h2>
-                  <p className="text-gray-600 mb-6">
-                    Fill out the form below and we'll contact you to confirm your appointment.
-                  </p>
-                  <ContactForm
-                    subject="Inspection Booking Request"
-                    showAddressField={true}
-                  />
-                </div>
-              )}
+                <ContactForm
+                  subject="Inspection Booking Request"
+                  showAddressField={true}
+                />
+              </div>
             </div>
           </div>
         </div>

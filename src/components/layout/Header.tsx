@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, CalendarCheck } from "lucide-react";
 import { siteConfig } from "@/site/config";
 import { getPhoneLink } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -55,8 +55,14 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
-            <a href={getPhoneLink(siteConfig.phone)} className="ml-4">
+            <Link href="/book" className="ml-4">
               <Button size="sm" className="bg-black hover:bg-gray-800">
+                <CalendarCheck className="h-4 w-4 mr-2" />
+                Book Online
+              </Button>
+            </Link>
+            <a href={getPhoneLink(siteConfig.phone)}>
+              <Button size="sm" variant="outline" className="border-gray-300 text-black hover:bg-gray-100">
                 <Phone className="h-4 w-4 mr-2" />
                 Call Now
               </Button>
@@ -94,9 +100,15 @@ export function Header() {
                   {item.name}
                 </Link>
               ))}
-              <div className="px-3 pt-2">
-                <a href={getPhoneLink(siteConfig.phone)} className="block">
+              <div className="px-3 pt-2 space-y-2">
+                <Link href="/book" className="block" onClick={() => setMobileMenuOpen(false)}>
                   <Button className="w-full bg-black hover:bg-gray-800">
+                    <CalendarCheck className="h-4 w-4 mr-2" />
+                    Book Online
+                  </Button>
+                </Link>
+                <a href={getPhoneLink(siteConfig.phone)} className="block">
+                  <Button variant="outline" className="w-full border-gray-300 text-black hover:bg-gray-100">
                     <Phone className="h-4 w-4 mr-2" />
                     Call {siteConfig.phone}
                   </Button>
