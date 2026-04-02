@@ -7,7 +7,7 @@ export function InspectForgeBookingEmbed() {
     <div className="min-h-[400px]">
       <div data-inspectforge-widget="ap-inspections-llc-in" />
       <Script
-        src="https://app.inspectforge.com/widget.js"
+        src="https://api.inspectforge.com/widget.js"
         strategy="afterInteractive"
       />
     </div>
