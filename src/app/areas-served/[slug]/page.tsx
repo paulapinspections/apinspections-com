@@ -173,11 +173,9 @@ export default async function CityPage({ params }: PageProps) {
                   {service.name}
                 </h3>
                 <p className="text-gray-700 mb-4">{service.description}</p>
-                {service.startingPrice && (
-                  <p className="text-lg font-bold text-black">
-                    Starting at {service.startingPrice}
-                  </p>
-                )}
+                <p className="text-lg font-bold text-black">
+                  Contact me for Pricing
+                </p>
               </div>
             ))}
           </div>

@@ -118,11 +118,9 @@ export default function HomePage() {
               <div key={service.name} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-semibold text-gray-900">{service.name}</h3>
                 <p className="mt-3 text-gray-700">{service.description}</p>
-                {service.startingPrice && (
-                  <p className="mt-4 text-lg font-semibold text-black">
-                    Starting at {service.startingPrice}
-                  </p>
-                )}
+                <p className="mt-4 text-lg font-semibold text-black">
+                  Contact me for Pricing
+                </p>
               </div>
             ))}
           </div>
@@ -311,14 +309,6 @@ export default function HomePage() {
                   name: service.name,
                   description: service.description,
                 },
-                ...(service.startingPrice && {
-                  priceSpecification: {
-                    "@type": "PriceSpecification",
-                    price: service.startingPrice.replace("$", ""),
-                    priceCurrency: "USD",
-                    minPrice: service.startingPrice.replace("$", ""),
-                  },
-                }),
               })),
             },
           }),

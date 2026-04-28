@@ -127,19 +127,16 @@ export const siteConfig: SiteConfig = {
     {
       name: "Pre-Purchase Inspection",
       description: "Comprehensive evaluation of the property before you buy, covering structure, systems, and safety concerns.",
-      startingPrice: "$350",
       icon: "home",
     },
     {
       name: "Pre-Listing Inspection",
       description: "Get ahead of potential issues before listing your home for sale. Identify and address problems early.",
-      startingPrice: "$325",
       icon: "clipboard-check",
     },
     {
       name: "New Construction Inspection",
       description: "Phase inspections during construction and final walk-through to ensure quality and code compliance.",
-      startingPrice: "$400",
       icon: "hammer",
     }
     //{
@@ -188,7 +185,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       question: "How much does a home inspection cost?",
-      answer: "Inspection costs vary based on home size, age, and services requested. Most standard inspections range from $325-$500. Contact us for a specific quote for your property.",
+      answer: "Pricing varies based on home size, age, and services requested. Contact me for a specific quote for your property.",
     },
     {
       question: "Should I be present during the inspection?",

@@ -16,7 +16,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: `Home Inspection Services in ${siteConfig.city}, ${siteConfig.state}`,
-  description: `Professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Pre-purchase, pre-listing, and new construction inspections with same-day reports. Starting at $300. Call ${siteConfig.phone}.`,
+  description: `Professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Pre-purchase, pre-listing, and new construction inspections with same-day reports. Contact us for pricing. Call ${siteConfig.phone}.`,
   keywords: [
     "home inspection services",
     "pre-purchase home inspection",
@@ -78,11 +78,9 @@ export default function ServicesPage() {
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.name}</h3>
                     <p className="text-gray-600 mb-6">{service.description}</p>
-                    {service.startingPrice && (
-                      <p className="text-xl font-bold text-black">
-                        Starting at {service.startingPrice}
-                      </p>
-                    )}
+                    <p className="text-xl font-bold text-black">
+                      Contact me for Pricing
+                    </p>
                   </div>
                 );
               })}
