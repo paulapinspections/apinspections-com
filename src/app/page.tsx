@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { 
   Shield, 
   Clock, 
@@ -41,7 +42,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                Certified Home Inspector in {siteConfig.city}, {siteConfig.state}
+                Certified Home Inspections in Indiana surrounding Angola
               </h1>
               <p className="mt-3 text-lg font-medium text-gray-300 tracking-wide">
                 {siteConfig.tagline}
@@ -50,20 +51,6 @@ export default function HomePage() {
                 Professional home inspection services serving northeast Indiana.
                 {siteConfig.inspectionReportSameDay && " Same-day detailed reports."}
               </p>
-              <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/book">
-                  <Button size="lg" className="bg-white text-black hover:bg-gray-100">
-                    Schedule Inspection
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-                <a href={getPhoneLink(siteConfig.phone)}>
-                  <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10">
-                    <Phone className="mr-2 h-5 w-5" />
-                    {siteConfig.phone}
-                  </Button>
-                </a>
-              </div>
             </div>
           </div>
         </section>
@@ -150,8 +137,43 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Service Area */}
+      {/* Meet Your Inspector */}
       <section className="py-16 bg-gray-50">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900">Meet Your Inspector</h2>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative aspect-[3/4] w-full max-w-sm mx-auto lg:max-w-full rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/Paul Wickerr Co-Founder.jpeg"
+                alt="Paul Wicker, Owner of AP Inspections LLC"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900">Paul Wicker</h3>
+              <p className="mt-1 text-sm font-medium text-gray-500 uppercase tracking-wide">Owner, AP Inspections LLC</p>
+              <div className="mt-6 space-y-4 text-gray-700">
+                <p>
+                  Paul Wicker is a serial entrepreneur, certified home inspector, and public safety leader based in Steuben County, Indiana. As the owner of AP Inspections LLC, Paul helps homebuyers and sellers make informed decisions with thorough, honest property inspections. He is also the Deputy Director of Emergency Management for Steuben County, bringing decades of crisis response experience to his community.
+                </p>
+                <p>
+                  Paul retired from the fire service after 27 years of dedicated service, a career that shaped his commitment to protecting others. Beyond emergency response, he brings 20 years of fabrication experience and nine years of concrete work to the table—hands-on skills that give him a uniquely practical eye during inspections.
+                </p>
+                <p>
+                  As co-founder of Inspect Forge, Paul is helping shape the future of the inspection industry. He holds multiple certifications including a CDL, and when he&apos;s not working or volunteering, he&apos;s hunting, spending time with family, or cranking up his favorite 80s music. For Paul, it&apos;s always about helping people—on the job and off.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Area */}
+      <section className="py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900">Areas We Serve</h2>
