@@ -144,7 +144,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-[3/4] w-full max-w-sm mx-auto lg:max-w-full rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/Paul Wickerr Co-Founder.jpeg"
+                src="/Paul Wickerr Co-Founder.png"
                 alt="Paul Wicker, Owner of AP Inspections LLC"
                 fill
                 className="object-cover object-top"
