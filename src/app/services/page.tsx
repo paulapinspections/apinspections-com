@@ -16,7 +16,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: `Home Inspection Services in ${siteConfig.city}, ${siteConfig.state}`,
-  description: `Professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Pre-purchase, pre-listing, and new construction inspections with same-day reports. Contact us for pricing. Call ${siteConfig.phone}.`,
+  description: `Professional home inspection services in ${siteConfig.city}, ${siteConfig.state}. Pre-purchase, pre-listing, and new construction inspections with same-day reports. Contact me for pricing. Call ${siteConfig.phone}.`,
   keywords: [
     "home inspection services",
     "pre-purchase home inspection",

@@ -33,7 +33,7 @@ A pre-listing inspection lets your seller identify and address issues before the
 
 When your seller has already fixed known issues, the buyer's inspection is more likely to come back clean. That means fewer repair requests, less back-and-forth, and a smoother path to closing.
 
-Our pre-listing inspections are $325 and include the same detailed, same-day report we provide to buyers.
+Our pre-listing inspections include the same detailed, same-day report we provide to buyers.
 
 ## What to Tell Your Clients Before the Inspection
 
@@ -83,7 +83,7 @@ The short answer: always.
 Some situations where agents sometimes hesitate to recommend an inspection but absolutely should:
 
 - **Competitive markets** -- Even when buyers are tempted to waive the inspection contingency to strengthen their offer, they should still get an inspection. An inspection for informational purposes only still gives the buyer critical knowledge.
-- **New construction** -- New homes have defects. An independent inspection at $400 catches what code inspectors and the builder's quality check may miss.
+- **New construction** -- New homes have defects. An independent inspection catches what code inspectors and the builder's quality check may miss.
 - **Condos and townhouses** -- Even though the association handles exterior maintenance, the interior systems still need evaluation.
 - **Investment properties** -- Knowing the true condition of a rental property affects your client's ROI calculations.
 - **Estates and inherited properties** -- These homes often have deferred maintenance and unknown conditions.

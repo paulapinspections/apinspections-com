@@ -108,7 +108,7 @@ If the builder pushes back on certain items, the report gives you leverage in ne
 
 ## Investing in Your New Home
 
-Our new construction inspection is $400, which is a small fraction of the cost of the home itself. Considering that a single missed defect, like improper flashing or a grading issue, can lead to thousands of dollars in water damage, the return on investment is clear.
+A new construction inspection costs a small fraction of the price of the home itself. Considering that a single missed defect, like improper flashing or a grading issue, can lead to thousands of dollars in water damage, the return on investment is clear.
 
 Whether you are building in one of the new subdivisions around Waterloo, Auburn, or anywhere within an hour of Angola, an independent inspection gives you confidence that your new home is truly ready for move-in.
 

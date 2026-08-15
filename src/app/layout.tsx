@@ -4,7 +4,6 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingCallButton } from "@/components/layout/FloatingCallButton";
 import { AnnouncementBanner } from "@/components/layout/AnnouncementBanner";
-import { InspectForgeWidget } from "@/components/layout/InspectForgeWidget";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -76,7 +75,6 @@ export default function RootLayout({
         <main className="min-h-screen">{children}</main>
         <Footer />
         <FloatingCallButton />
-        <InspectForgeWidget />
       </body>
     </html>
   );

@@ -3,7 +3,7 @@ title: "How Much Does a Home Inspection Cost in Indiana?"
 slug: "home-inspection-cost-indiana"
 date: "2026-03-25"
 category: "Indiana Guides"
-tags: ["pricing", "indiana", "first-time-buyers"]
+tags: ["home-buying", "indiana", "first-time-buyers"]
 excerpt: "Home inspection costs in Indiana typically range from $300 to $500. Here is what affects the price and why it is the best investment you will make on a six-figure purchase."
 featuredImage: "/blog/images/HomeOutsideView.png"
 featuredImageAlt: "Home exterior view in northeast Indiana"
@@ -13,19 +13,11 @@ published: true
 
 ## What Does a Home Inspection Cost in Indiana?
 
-Most home inspections in Indiana cost between **$300 and $500**, depending on the size, age, and type of property. At AP Inspections, our pricing starts at $300 for standard inspections in the northeast Indiana area.
+Most home inspections in Indiana cost between **$300 and $500**, depending on the size, age, and type of property.
 
-Here is a breakdown of what you can expect to pay.
+Every inspection we perform covers all major systems and includes a same-day detailed report with photos. Because the right price depends on the property itself, we quote each inspection individually.
 
-## AP Inspections Pricing
-
-| Service | Starting Price |
-|---------|---------------|
-| Pre-Purchase Inspection | $350 |
-| Pre-Listing Inspection | $325 |
-| New Construction Inspection | $400 |
-
-These prices cover a comprehensive inspection of all major systems with a same-day detailed report including photos.
+Here is what drives the difference.
 
 ## What Affects the Cost?
 
@@ -72,7 +64,7 @@ Knowing the true condition of the property lets you make a confident decision. W
 
 ## Can I Skip the Inspection to Save Money?
 
-Some buyers in competitive markets consider waiving the inspection. This is risky. Skipping a $350 inspection on a $200,000 home to save less than 0.2% of the purchase price leaves you exposed to potentially massive repair costs.
+Some buyers in competitive markets consider waiving the inspection. This is risky. Skipping a few-hundred-dollar inspection on a $200,000 home to save a fraction of a percent of the purchase price leaves you exposed to potentially massive repair costs.
 
 Even in a hot market, our same-day reports mean you will not slow down the process. You get the information fast enough to stay competitive.
 

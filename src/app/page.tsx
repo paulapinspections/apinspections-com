@@ -291,7 +291,6 @@ export default function HomePage() {
                 closes: "17:00",
               },
             ],
-            priceRange: "$$",
             image: `${siteConfig.siteUrl}${siteConfig.images.ogImage}`,
             logo: `${siteConfig.siteUrl}${siteConfig.images.logo}`,
             hasCredential: {

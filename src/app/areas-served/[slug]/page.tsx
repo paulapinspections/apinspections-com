@@ -317,7 +317,6 @@ export default async function CityPage({ params }: PageProps) {
                 name: `${city.county}, ${city.state}`,
               },
             },
-            priceRange: "$$",
             hasOfferCatalog: {
               "@type": "OfferCatalog",
               name: "Home Inspection Services",

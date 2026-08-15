@@ -111,9 +111,9 @@ Homes outside city limits in areas like Fremont, LaGrange, and rural DeKalb Coun
 
 Steuben County has more natural lakes than almost any other county in Indiana. If you are selling a lakefront property, a pre-listing inspection is especially valuable. Moisture issues, seasonal-use concerns, and unique structural conditions are common, and buyers in this market tend to be thorough in their due diligence.
 
-## What Does a Pre-Listing Inspection Cost?
+## Is a Pre-Listing Inspection Worth It?
 
-At AP Inspections, pre-listing inspections start at **$325** — a modest investment compared to the cost of a delayed closing, a failed deal, or emergency repairs under pressure. Most sellers find that the inspection pays for itself many times over in smoother negotiations and faster sales.
+A pre-listing inspection is a modest investment compared to the cost of a delayed closing, a failed deal, or emergency repairs under pressure. Most sellers find that the inspection pays for itself many times over in smoother negotiations and faster sales.
 
 ## Download the Pre-Listing Inspection Checklist
 

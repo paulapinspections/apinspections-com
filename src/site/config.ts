@@ -1,7 +1,6 @@
 export interface Service {
   name: string;
   description: string;
-  startingPrice?: string;
   icon?: string;
 }
 
@@ -142,19 +141,16 @@ export const siteConfig: SiteConfig = {
     //{
       //name: "Radon Testing",
       //description: "Professional radon testing to detect dangerous levels of this invisible, odorless gas in your home.",
-      //startingPrice: "$150",
       //icon: "wind",
     //},
     //{
       //name: "Mold Inspection",
       //description: "Visual inspection and air quality testing to identify mold growth and moisture issues.",
-      //startingPrice: "$275",
       //icon: "droplet",
     //},
     //{
       //name: "Termite & Pest Inspection",
       //description: "Thorough inspection for wood-destroying insects and other pest damage.",
-      //startingPrice: "$125",
       //icon: "bug",
     //},
   ],

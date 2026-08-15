@@ -73,7 +73,7 @@ If the appraisal comes in at or above the purchase price, the loan moves forward
 | **Focuses on** | Systems, safety, defects | Value, comparables, features |
 | **Report goes to** | Buyer | Lender (copy to buyer) |
 | **Affects** | Negotiation, repair requests | Loan approval, purchase price |
-| **Typical cost** | $325-$400 | $400-$600 |
+| **Typical cost** | $300-$500 | $400-$600 |
 
 ## Why You Need Both
 
@@ -101,7 +101,7 @@ That is technically true. If you are not taking out a mortgage, no lender requir
 
 ### "The home is new construction, so I can skip the inspection."
 
-New homes have defects too, sometimes more than you would expect. Code inspections during construction verify minimum compliance, not overall quality. We see issues in brand-new homes in Auburn, Waterloo, and throughout northeast Indiana on a regular basis. A new construction inspection with AP Inspections costs $400 and can save you significant headaches after closing.
+New homes have defects too, sometimes more than you would expect. Code inspections during construction verify minimum compliance, not overall quality. We see issues in brand-new homes in Auburn, Waterloo, and throughout northeast Indiana on a regular basis. A new construction inspection with AP Inspections can save you significant headaches after closing.
 
 ## How It Works in Northeast Indiana
 
